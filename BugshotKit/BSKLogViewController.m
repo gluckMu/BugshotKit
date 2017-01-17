@@ -76,7 +76,7 @@ static int markerNumber = 0;
     if (! self.isViewLoaded) return;
 
     if ([BugshotKit.sharedManager displayConsoleTextInLogViewer]) {
-        [BugshotKit.sharedManager currentConsoleLogWithDateStamps:YES
+        [BugshotKit.sharedManager currentConsoleLogWithDateStamps:NO
                                                    withCompletion:^(NSString *result) {
                                                        self.consoleTextView.text = result;
                                                        [self.consoleTextView scrollRangeToVisible:NSMakeRange([result length], 0)];

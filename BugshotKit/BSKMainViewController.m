@@ -273,7 +273,7 @@ static UIImage *rotateIfNeeded(UIImage *src);
 - (void)sendButtonTapped:(id)sender
 {
     if (self.includeLogToggle.on) {
-        [BugshotKit.sharedManager currentConsoleLogWithDateStamps:YES withCompletion:^(NSString *result) {
+        [BugshotKit.sharedManager currentConsoleLogWithDateStamps:NO withCompletion:^(NSString *result) {
             [self sendButtonTappedWithLog:result];
         }];
     }

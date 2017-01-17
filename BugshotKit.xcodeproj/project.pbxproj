@@ -7,175 +7,203 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10302AE21E2C770100A845BA /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 10302AE01E2C770100A845BA /* fishhook.c */; };
-		10302AE31E2C770100A845BA /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302AE11E2C770100A845BA /* fishhook.h */; };
-		4C15DA34188F48E400767C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15DA33188F48E400767C78 /* Foundation.framework */; };
-		4C15DA3A188F48E400767C78 /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA39188F48E400767C78 /* BugshotKit.m */; };
-		4C15DA59188F491000767C78 /* BSKAnnotationArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */; };
-		4C15DA5B188F491000767C78 /* BSKAnnotationBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA43188F491000767C78 /* BSKAnnotationBlurView.m */; };
-		4C15DA5D188F491000767C78 /* BSKAnnotationBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA45188F491000767C78 /* BSKAnnotationBoxView.m */; };
-		4C15DA5F188F491000767C78 /* BSKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA47188F491000767C78 /* BSKAnnotationView.m */; };
-		4C15DA61188F491000767C78 /* BSKCheckerboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA49188F491000767C78 /* BSKCheckerboardView.m */; };
-		4C15DA63188F491000767C78 /* BSKLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA4B188F491000767C78 /* BSKLogViewController.m */; };
-		4C15DA64188F491000767C78 /* BSKMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA4C188F491000767C78 /* BSKMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C15DA65188F491000767C78 /* BSKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA4D188F491000767C78 /* BSKMainViewController.m */; };
-		4C15DA67188F491000767C78 /* BSKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA4F188F491000767C78 /* BSKNavigationController.m */; };
-		4C15DA69188F491000767C78 /* BSKScreenshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA51188F491000767C78 /* BSKScreenshotViewController.m */; };
-		4C15DA6B188F491000767C78 /* BSKToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA53188F491000767C78 /* BSKToggleButton.m */; };
-		4C15DA6D188F491000767C78 /* BSKWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA55188F491000767C78 /* BSKWindow.m */; };
-		4C15DA6F188F491000767C78 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA57188F491000767C78 /* UIImage+ImageEffects.m */; };
-		4C15DA70188F49AB00767C78 /* BugshotKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA38188F48E400767C78 /* BugshotKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C15DAA2188F563A00767C78 /* BSKWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA54188F491000767C78 /* BSKWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9AF1AA418995AA90025693B /* MABGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AF1AA218995AA90025693B /* MABGTimer.h */; };
-		A9AF1AA518995AA90025693B /* MABGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF1AA318995AA90025693B /* MABGTimer.m */; };
+		10302AFB1E2CC36D00A845BA /* BugshotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10302AF11E2CC36D00A845BA /* BugshotKit.framework */; };
+		10302B001E2CC36D00A845BA /* BugshotKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302AFF1E2CC36D00A845BA /* BugshotKitTests.m */; };
+		10302B261E2CC41400A845BA /* BSKAnnotationArrowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B0B1E2CC41400A845BA /* BSKAnnotationArrowView.h */; };
+		10302B271E2CC41400A845BA /* BSKAnnotationArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B0C1E2CC41400A845BA /* BSKAnnotationArrowView.m */; };
+		10302B281E2CC41400A845BA /* BSKAnnotationBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B0D1E2CC41400A845BA /* BSKAnnotationBlurView.h */; };
+		10302B291E2CC41400A845BA /* BSKAnnotationBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B0E1E2CC41400A845BA /* BSKAnnotationBlurView.m */; };
+		10302B2A1E2CC41400A845BA /* BSKAnnotationBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B0F1E2CC41400A845BA /* BSKAnnotationBoxView.h */; };
+		10302B2B1E2CC41400A845BA /* BSKAnnotationBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B101E2CC41400A845BA /* BSKAnnotationBoxView.m */; };
+		10302B2C1E2CC41400A845BA /* BSKAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B111E2CC41400A845BA /* BSKAnnotationView.h */; };
+		10302B2D1E2CC41400A845BA /* BSKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B121E2CC41400A845BA /* BSKAnnotationView.m */; };
+		10302B2E1E2CC41400A845BA /* BSKCheckerboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B131E2CC41400A845BA /* BSKCheckerboardView.h */; };
+		10302B2F1E2CC41400A845BA /* BSKCheckerboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B141E2CC41400A845BA /* BSKCheckerboardView.m */; };
+		10302B301E2CC41400A845BA /* BSKLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B151E2CC41400A845BA /* BSKLogViewController.h */; };
+		10302B311E2CC41400A845BA /* BSKLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B161E2CC41400A845BA /* BSKLogViewController.m */; };
+		10302B321E2CC41400A845BA /* BSKMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B171E2CC41400A845BA /* BSKMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10302B331E2CC41400A845BA /* BSKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B181E2CC41400A845BA /* BSKMainViewController.m */; };
+		10302B341E2CC41400A845BA /* BSKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B191E2CC41400A845BA /* BSKNavigationController.h */; };
+		10302B351E2CC41400A845BA /* BSKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B1A1E2CC41400A845BA /* BSKNavigationController.m */; };
+		10302B361E2CC41400A845BA /* BSKScreenshotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B1B1E2CC41400A845BA /* BSKScreenshotViewController.h */; };
+		10302B371E2CC41400A845BA /* BSKScreenshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B1C1E2CC41400A845BA /* BSKScreenshotViewController.m */; };
+		10302B381E2CC41400A845BA /* BSKToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B1D1E2CC41400A845BA /* BSKToggleButton.h */; };
+		10302B391E2CC41400A845BA /* BSKToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B1E1E2CC41400A845BA /* BSKToggleButton.m */; };
+		10302B3A1E2CC41400A845BA /* BSKWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B1F1E2CC41400A845BA /* BSKWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10302B3B1E2CC41400A845BA /* BSKWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B201E2CC41400A845BA /* BSKWindow.m */; };
+		10302B3C1E2CC41400A845BA /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B211E2CC41400A845BA /* BugshotKit.m */; };
+		10302B3D1E2CC41400A845BA /* MABGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B221E2CC41400A845BA /* MABGTimer.h */; };
+		10302B3E1E2CC41400A845BA /* MABGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B231E2CC41400A845BA /* MABGTimer.m */; };
+		10302B3F1E2CC41400A845BA /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B241E2CC41400A845BA /* UIImage+ImageEffects.h */; };
+		10302B401E2CC41400A845BA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 10302B251E2CC41400A845BA /* UIImage+ImageEffects.m */; };
+		10302B421E2CC7EB00A845BA /* BugshotKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 10302B411E2CC7EB00A845BA /* BugshotKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		10302AFC1E2CC36D00A845BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10302AE81E2CC36C00A845BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10302AF01E2CC36C00A845BA;
+			remoteInfo = BugshotKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		10302AE01E2C770100A845BA /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		10302AE11E2C770100A845BA /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		4C15DA30188F48E400767C78 /* libBugshotKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBugshotKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C15DA33188F48E400767C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4C15DA37188F48E400767C78 /* BugshotKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BugshotKit-Prefix.pch"; sourceTree = "<group>"; };
-		4C15DA38188F48E400767C78 /* BugshotKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugshotKit.h; sourceTree = "<group>"; };
-		4C15DA39188F48E400767C78 /* BugshotKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugshotKit.m; sourceTree = "<group>"; };
-		4C15DA40188F491000767C78 /* BSKAnnotationArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationArrowView.h; sourceTree = "<group>"; };
-		4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationArrowView.m; sourceTree = "<group>"; };
-		4C15DA42188F491000767C78 /* BSKAnnotationBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationBlurView.h; sourceTree = "<group>"; };
-		4C15DA43188F491000767C78 /* BSKAnnotationBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationBlurView.m; sourceTree = "<group>"; };
-		4C15DA44188F491000767C78 /* BSKAnnotationBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationBoxView.h; sourceTree = "<group>"; };
-		4C15DA45188F491000767C78 /* BSKAnnotationBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationBoxView.m; sourceTree = "<group>"; };
-		4C15DA46188F491000767C78 /* BSKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationView.h; sourceTree = "<group>"; };
-		4C15DA47188F491000767C78 /* BSKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationView.m; sourceTree = "<group>"; };
-		4C15DA48188F491000767C78 /* BSKCheckerboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKCheckerboardView.h; sourceTree = "<group>"; };
-		4C15DA49188F491000767C78 /* BSKCheckerboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKCheckerboardView.m; sourceTree = "<group>"; };
-		4C15DA4A188F491000767C78 /* BSKLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKLogViewController.h; sourceTree = "<group>"; };
-		4C15DA4B188F491000767C78 /* BSKLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKLogViewController.m; sourceTree = "<group>"; };
-		4C15DA4C188F491000767C78 /* BSKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKMainViewController.h; sourceTree = "<group>"; };
-		4C15DA4D188F491000767C78 /* BSKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKMainViewController.m; sourceTree = "<group>"; };
-		4C15DA4E188F491000767C78 /* BSKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKNavigationController.h; sourceTree = "<group>"; };
-		4C15DA4F188F491000767C78 /* BSKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKNavigationController.m; sourceTree = "<group>"; };
-		4C15DA50188F491000767C78 /* BSKScreenshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKScreenshotViewController.h; sourceTree = "<group>"; };
-		4C15DA51188F491000767C78 /* BSKScreenshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKScreenshotViewController.m; sourceTree = "<group>"; };
-		4C15DA52188F491000767C78 /* BSKToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKToggleButton.h; sourceTree = "<group>"; };
-		4C15DA53188F491000767C78 /* BSKToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKToggleButton.m; sourceTree = "<group>"; };
-		4C15DA54188F491000767C78 /* BSKWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKWindow.h; sourceTree = "<group>"; };
-		4C15DA55188F491000767C78 /* BSKWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKWindow.m; sourceTree = "<group>"; };
-		4C15DA56188F491000767C78 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		4C15DA57188F491000767C78 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		A9AF1AA218995AA90025693B /* MABGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABGTimer.h; sourceTree = "<group>"; };
-		A9AF1AA318995AA90025693B /* MABGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABGTimer.m; sourceTree = "<group>"; };
+		10302AF11E2CC36D00A845BA /* BugshotKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BugshotKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10302AF41E2CC36D00A845BA /* BugshotKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugshotKitHeader.h; sourceTree = "<group>"; };
+		10302AF51E2CC36D00A845BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10302AFA1E2CC36D00A845BA /* BugshotKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BugshotKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10302AFF1E2CC36D00A845BA /* BugshotKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugshotKitTests.m; sourceTree = "<group>"; };
+		10302B011E2CC36D00A845BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10302B0B1E2CC41400A845BA /* BSKAnnotationArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationArrowView.h; sourceTree = "<group>"; };
+		10302B0C1E2CC41400A845BA /* BSKAnnotationArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationArrowView.m; sourceTree = "<group>"; };
+		10302B0D1E2CC41400A845BA /* BSKAnnotationBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationBlurView.h; sourceTree = "<group>"; };
+		10302B0E1E2CC41400A845BA /* BSKAnnotationBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationBlurView.m; sourceTree = "<group>"; };
+		10302B0F1E2CC41400A845BA /* BSKAnnotationBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationBoxView.h; sourceTree = "<group>"; };
+		10302B101E2CC41400A845BA /* BSKAnnotationBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationBoxView.m; sourceTree = "<group>"; };
+		10302B111E2CC41400A845BA /* BSKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKAnnotationView.h; sourceTree = "<group>"; };
+		10302B121E2CC41400A845BA /* BSKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKAnnotationView.m; sourceTree = "<group>"; };
+		10302B131E2CC41400A845BA /* BSKCheckerboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKCheckerboardView.h; sourceTree = "<group>"; };
+		10302B141E2CC41400A845BA /* BSKCheckerboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKCheckerboardView.m; sourceTree = "<group>"; };
+		10302B151E2CC41400A845BA /* BSKLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKLogViewController.h; sourceTree = "<group>"; };
+		10302B161E2CC41400A845BA /* BSKLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKLogViewController.m; sourceTree = "<group>"; };
+		10302B171E2CC41400A845BA /* BSKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKMainViewController.h; sourceTree = "<group>"; };
+		10302B181E2CC41400A845BA /* BSKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKMainViewController.m; sourceTree = "<group>"; };
+		10302B191E2CC41400A845BA /* BSKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKNavigationController.h; sourceTree = "<group>"; };
+		10302B1A1E2CC41400A845BA /* BSKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKNavigationController.m; sourceTree = "<group>"; };
+		10302B1B1E2CC41400A845BA /* BSKScreenshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKScreenshotViewController.h; sourceTree = "<group>"; };
+		10302B1C1E2CC41400A845BA /* BSKScreenshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKScreenshotViewController.m; sourceTree = "<group>"; };
+		10302B1D1E2CC41400A845BA /* BSKToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKToggleButton.h; sourceTree = "<group>"; };
+		10302B1E1E2CC41400A845BA /* BSKToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKToggleButton.m; sourceTree = "<group>"; };
+		10302B1F1E2CC41400A845BA /* BSKWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKWindow.h; sourceTree = "<group>"; };
+		10302B201E2CC41400A845BA /* BSKWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKWindow.m; sourceTree = "<group>"; };
+		10302B211E2CC41400A845BA /* BugshotKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugshotKit.m; sourceTree = "<group>"; };
+		10302B221E2CC41400A845BA /* MABGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABGTimer.h; sourceTree = "<group>"; };
+		10302B231E2CC41400A845BA /* MABGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABGTimer.m; sourceTree = "<group>"; };
+		10302B241E2CC41400A845BA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		10302B251E2CC41400A845BA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		10302B411E2CC7EB00A845BA /* BugshotKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugshotKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C15DA2C188F48E400767C78 /* Frameworks */ = {
+		10302AED1E2CC36C00A845BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C15DA34188F48E400767C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10302AF71E2CC36D00A845BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10302AFB1E2CC36D00A845BA /* BugshotKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C15DA25188F48E300767C78 = {
+		10302AE71E2CC36C00A845BA = {
 			isa = PBXGroup;
 			children = (
-				4C15DA35188F48E400767C78 /* BugshotKit */,
-				4C15DA32188F48E400767C78 /* Frameworks */,
-				4C15DA31188F48E400767C78 /* Products */,
+				10302AF31E2CC36D00A845BA /* BugshotKit */,
+				10302AFE1E2CC36D00A845BA /* BugshotKitTests */,
+				10302AF21E2CC36D00A845BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4C15DA31188F48E400767C78 /* Products */ = {
+		10302AF21E2CC36D00A845BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C15DA30188F48E400767C78 /* libBugshotKit.a */,
+				10302AF11E2CC36D00A845BA /* BugshotKit.framework */,
+				10302AFA1E2CC36D00A845BA /* BugshotKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C15DA32188F48E400767C78 /* Frameworks */ = {
+		10302AF31E2CC36D00A845BA /* BugshotKit */ = {
 			isa = PBXGroup;
 			children = (
-				4C15DA33188F48E400767C78 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4C15DA35188F48E400767C78 /* BugshotKit */ = {
-			isa = PBXGroup;
-			children = (
-				10302AE01E2C770100A845BA /* fishhook.c */,
-				10302AE11E2C770100A845BA /* fishhook.h */,
-				4C15DA38188F48E400767C78 /* BugshotKit.h */,
-				4C15DA39188F48E400767C78 /* BugshotKit.m */,
-				4C15DA40188F491000767C78 /* BSKAnnotationArrowView.h */,
-				4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */,
-				4C15DA42188F491000767C78 /* BSKAnnotationBlurView.h */,
-				4C15DA43188F491000767C78 /* BSKAnnotationBlurView.m */,
-				4C15DA44188F491000767C78 /* BSKAnnotationBoxView.h */,
-				4C15DA45188F491000767C78 /* BSKAnnotationBoxView.m */,
-				4C15DA46188F491000767C78 /* BSKAnnotationView.h */,
-				4C15DA47188F491000767C78 /* BSKAnnotationView.m */,
-				4C15DA48188F491000767C78 /* BSKCheckerboardView.h */,
-				4C15DA49188F491000767C78 /* BSKCheckerboardView.m */,
-				4C15DA4A188F491000767C78 /* BSKLogViewController.h */,
-				4C15DA4B188F491000767C78 /* BSKLogViewController.m */,
-				4C15DA4C188F491000767C78 /* BSKMainViewController.h */,
-				4C15DA4D188F491000767C78 /* BSKMainViewController.m */,
-				4C15DA4E188F491000767C78 /* BSKNavigationController.h */,
-				4C15DA4F188F491000767C78 /* BSKNavigationController.m */,
-				4C15DA50188F491000767C78 /* BSKScreenshotViewController.h */,
-				4C15DA51188F491000767C78 /* BSKScreenshotViewController.m */,
-				4C15DA52188F491000767C78 /* BSKToggleButton.h */,
-				4C15DA53188F491000767C78 /* BSKToggleButton.m */,
-				4C15DA54188F491000767C78 /* BSKWindow.h */,
-				4C15DA55188F491000767C78 /* BSKWindow.m */,
-				4C15DA56188F491000767C78 /* UIImage+ImageEffects.h */,
-				4C15DA57188F491000767C78 /* UIImage+ImageEffects.m */,
-				A9AF1AA218995AA90025693B /* MABGTimer.h */,
-				A9AF1AA318995AA90025693B /* MABGTimer.m */,
-				4C15DA36188F48E400767C78 /* Supporting Files */,
+				10302B411E2CC7EB00A845BA /* BugshotKit.h */,
+				10302B0B1E2CC41400A845BA /* BSKAnnotationArrowView.h */,
+				10302B0C1E2CC41400A845BA /* BSKAnnotationArrowView.m */,
+				10302B0D1E2CC41400A845BA /* BSKAnnotationBlurView.h */,
+				10302B0E1E2CC41400A845BA /* BSKAnnotationBlurView.m */,
+				10302B0F1E2CC41400A845BA /* BSKAnnotationBoxView.h */,
+				10302B101E2CC41400A845BA /* BSKAnnotationBoxView.m */,
+				10302B111E2CC41400A845BA /* BSKAnnotationView.h */,
+				10302B121E2CC41400A845BA /* BSKAnnotationView.m */,
+				10302B131E2CC41400A845BA /* BSKCheckerboardView.h */,
+				10302B141E2CC41400A845BA /* BSKCheckerboardView.m */,
+				10302B151E2CC41400A845BA /* BSKLogViewController.h */,
+				10302B161E2CC41400A845BA /* BSKLogViewController.m */,
+				10302B171E2CC41400A845BA /* BSKMainViewController.h */,
+				10302B181E2CC41400A845BA /* BSKMainViewController.m */,
+				10302B191E2CC41400A845BA /* BSKNavigationController.h */,
+				10302B1A1E2CC41400A845BA /* BSKNavigationController.m */,
+				10302B1B1E2CC41400A845BA /* BSKScreenshotViewController.h */,
+				10302B1C1E2CC41400A845BA /* BSKScreenshotViewController.m */,
+				10302B1D1E2CC41400A845BA /* BSKToggleButton.h */,
+				10302B1E1E2CC41400A845BA /* BSKToggleButton.m */,
+				10302B1F1E2CC41400A845BA /* BSKWindow.h */,
+				10302B201E2CC41400A845BA /* BSKWindow.m */,
+				10302B211E2CC41400A845BA /* BugshotKit.m */,
+				10302B221E2CC41400A845BA /* MABGTimer.h */,
+				10302B231E2CC41400A845BA /* MABGTimer.m */,
+				10302B241E2CC41400A845BA /* UIImage+ImageEffects.h */,
+				10302B251E2CC41400A845BA /* UIImage+ImageEffects.m */,
+				10302AF41E2CC36D00A845BA /* BugshotKitHeader.h */,
+				10302AF51E2CC36D00A845BA /* Info.plist */,
 			);
 			path = BugshotKit;
 			sourceTree = "<group>";
 		};
-		4C15DA36188F48E400767C78 /* Supporting Files */ = {
+		10302AFE1E2CC36D00A845BA /* BugshotKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4C15DA37188F48E400767C78 /* BugshotKit-Prefix.pch */,
+				10302AFF1E2CC36D00A845BA /* BugshotKitTests.m */,
+				10302B011E2CC36D00A845BA /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = BugshotKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C15DA2D188F48E400767C78 /* Headers */ = {
+		10302AEE1E2CC36C00A845BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C15DA70188F49AB00767C78 /* BugshotKit.h in Headers */,
-				10302AE31E2C770100A845BA /* fishhook.h in Headers */,
-				A9AF1AA418995AA90025693B /* MABGTimer.h in Headers */,
-				4C15DA64188F491000767C78 /* BSKMainViewController.h in Headers */,
-				4C15DAA2188F563A00767C78 /* BSKWindow.h in Headers */,
+				10302B421E2CC7EB00A845BA /* BugshotKit.h in Headers */,
+				10302B3A1E2CC41400A845BA /* BSKWindow.h in Headers */,
+				10302B321E2CC41400A845BA /* BSKMainViewController.h in Headers */,
+				10302B2C1E2CC41400A845BA /* BSKAnnotationView.h in Headers */,
+				10302B3F1E2CC41400A845BA /* UIImage+ImageEffects.h in Headers */,
+				10302B341E2CC41400A845BA /* BSKNavigationController.h in Headers */,
+				10302B361E2CC41400A845BA /* BSKScreenshotViewController.h in Headers */,
+				10302B3D1E2CC41400A845BA /* MABGTimer.h in Headers */,
+				10302B301E2CC41400A845BA /* BSKLogViewController.h in Headers */,
+				10302B281E2CC41400A845BA /* BSKAnnotationBlurView.h in Headers */,
+				10302B381E2CC41400A845BA /* BSKToggleButton.h in Headers */,
+				10302B2E1E2CC41400A845BA /* BSKCheckerboardView.h in Headers */,
+				10302B261E2CC41400A845BA /* BSKAnnotationArrowView.h in Headers */,
+				10302B2A1E2CC41400A845BA /* BSKAnnotationBoxView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4C15DA2F188F48E400767C78 /* BugshotKit */ = {
+		10302AF01E2CC36C00A845BA /* BugshotKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C15DA3D188F48E400767C78 /* Build configuration list for PBXNativeTarget "BugshotKit" */;
+			buildConfigurationList = 10302B051E2CC36D00A845BA /* Build configuration list for PBXNativeTarget "BugshotKit" */;
 			buildPhases = (
-				4C15DA2A188F48E400767C78 /* ShellScript */,
-				4C15DA2B188F48E400767C78 /* Sources */,
-				4C15DA2C188F48E400767C78 /* Frameworks */,
-				4C15DA2D188F48E400767C78 /* Headers */,
-				4C15DA2E188F48E400767C78 /* ShellScript */,
+				10302AEC1E2CC36C00A845BA /* Sources */,
+				10302AED1E2CC36C00A845BA /* Frameworks */,
+				10302AEE1E2CC36C00A845BA /* Headers */,
+				10302AEF1E2CC36C00A845BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,95 +211,127 @@
 			);
 			name = BugshotKit;
 			productName = BugshotKit;
-			productReference = 4C15DA30188F48E400767C78 /* libBugshotKit.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 10302AF11E2CC36D00A845BA /* BugshotKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		10302AF91E2CC36D00A845BA /* BugshotKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10302B081E2CC36D00A845BA /* Build configuration list for PBXNativeTarget "BugshotKitTests" */;
+			buildPhases = (
+				10302AF61E2CC36D00A845BA /* Sources */,
+				10302AF71E2CC36D00A845BA /* Frameworks */,
+				10302AF81E2CC36D00A845BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10302AFD1E2CC36D00A845BA /* PBXTargetDependency */,
+			);
+			name = BugshotKitTests;
+			productName = BugshotKitTests;
+			productReference = 10302AFA1E2CC36D00A845BA /* BugshotKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4C15DA26188F48E300767C78 /* Project object */ = {
+		10302AE81E2CC36C00A845BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Marco Arment";
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lili;
+				TargetAttributes = {
+					10302AF01E2CC36C00A845BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					10302AF91E2CC36D00A845BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
-			buildConfigurationList = 4C15DA29188F48E300767C78 /* Build configuration list for PBXProject "BugshotKit" */;
+			buildConfigurationList = 10302AEB1E2CC36C00A845BA /* Build configuration list for PBXProject "BugshotKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4C15DA25188F48E300767C78;
-			productRefGroup = 4C15DA31188F48E400767C78 /* Products */;
+			mainGroup = 10302AE71E2CC36C00A845BA;
+			productRefGroup = 10302AF21E2CC36D00A845BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C15DA2F188F48E400767C78 /* BugshotKit */,
+				10302AF01E2CC36C00A845BA /* BugshotKit */,
+				10302AF91E2CC36D00A845BA /* BugshotKitTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4C15DA2A188F48E400767C78 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		10302AEF1E2CC36C00A845BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n# This is the other build, called from the original instance\nexit 0\nfi\n\n# Clean up prior to build\n\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\nif [ ! -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Device build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" \n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nelif [ ! -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Simulator build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nfi\n";
 		};
-		4C15DA2E188F48E400767C78 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+		10302AF81E2CC36D00A845BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\n#\n# Universal static library script\n# http://github.com/michaeltyson/iOS-Universal-Library-Template\n#\n# Version 2.5\n#\n# Purpose:\n#   Create a static library for iPhone from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Tweaked and made into an Xcode template by Michael Tyson - http://atastypixel.com/blog\n# Based on original script from Eonil\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n# Additional changes by John Lawson <http://jelawson.com> to copy the CURRENTCONFIG_DEVICE_DIR to the CURRENTCONFIG_UNIVERSAL_DIR instead of creating it\n# to include other files that might have been copied via Copy Files build phases (e.g. readme files, xibs, etc); this removes the need to copy just\n# the header folder.\n#\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"true\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\necho \"SDK_NAME = $SDK_NAME\"\nfi\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n# This is the other build, called from the original instance\nexit 0\nfi\n\n# Find the BASESDK version number\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{4\\}$')\n\n# Next, work out if we're in SIM or DEVICE\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n\n# Build the other architecture\necho \"xcodebuild -project \\\"${PROJECT_FILE_PATH}\\\" -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" CALLED_FROM_MASTER=1\"\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" CALLED_FROM_MASTER=1\n\n# Merge built architectures\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\necho \"...I will output a universal build to: ${CURRENTCONFIG_UNIVERSAL_DIR}\"\n\nif [ ! -e \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n\"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n\"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\nrm -rf \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\ncp -R \"${CURRENTCONFIG_DEVICE_DIR}\" \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nrm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\necho \"Copying universal build back over to ${CURRENTCONFIG_DEVICE_DIR} and ${CURRENTCONFIG_SIMULATOR_DIR}\"\ncp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\ncp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\ntouch \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\nelse\necho \"Everything up to date.\"\nfi\n";
 		};
-/* End PBXShellScriptBuildPhase section */
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C15DA2B188F48E400767C78 /* Sources */ = {
+		10302AEC1E2CC36C00A845BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C15DA61188F491000767C78 /* BSKCheckerboardView.m in Sources */,
-				10302AE21E2C770100A845BA /* fishhook.c in Sources */,
-				4C15DA6F188F491000767C78 /* UIImage+ImageEffects.m in Sources */,
-				4C15DA5F188F491000767C78 /* BSKAnnotationView.m in Sources */,
-				4C15DA6D188F491000767C78 /* BSKWindow.m in Sources */,
-				4C15DA5D188F491000767C78 /* BSKAnnotationBoxView.m in Sources */,
-				4C15DA6B188F491000767C78 /* BSKToggleButton.m in Sources */,
-				4C15DA63188F491000767C78 /* BSKLogViewController.m in Sources */,
-				4C15DA59188F491000767C78 /* BSKAnnotationArrowView.m in Sources */,
-				4C15DA5B188F491000767C78 /* BSKAnnotationBlurView.m in Sources */,
-				4C15DA65188F491000767C78 /* BSKMainViewController.m in Sources */,
-				A9AF1AA518995AA90025693B /* MABGTimer.m in Sources */,
-				4C15DA69188F491000767C78 /* BSKScreenshotViewController.m in Sources */,
-				4C15DA67188F491000767C78 /* BSKNavigationController.m in Sources */,
-				4C15DA3A188F48E400767C78 /* BugshotKit.m in Sources */,
+				10302B351E2CC41400A845BA /* BSKNavigationController.m in Sources */,
+				10302B311E2CC41400A845BA /* BSKLogViewController.m in Sources */,
+				10302B401E2CC41400A845BA /* UIImage+ImageEffects.m in Sources */,
+				10302B2D1E2CC41400A845BA /* BSKAnnotationView.m in Sources */,
+				10302B271E2CC41400A845BA /* BSKAnnotationArrowView.m in Sources */,
+				10302B331E2CC41400A845BA /* BSKMainViewController.m in Sources */,
+				10302B3E1E2CC41400A845BA /* MABGTimer.m in Sources */,
+				10302B2B1E2CC41400A845BA /* BSKAnnotationBoxView.m in Sources */,
+				10302B2F1E2CC41400A845BA /* BSKCheckerboardView.m in Sources */,
+				10302B291E2CC41400A845BA /* BSKAnnotationBlurView.m in Sources */,
+				10302B391E2CC41400A845BA /* BSKToggleButton.m in Sources */,
+				10302B371E2CC41400A845BA /* BSKScreenshotViewController.m in Sources */,
+				10302B3B1E2CC41400A845BA /* BSKWindow.m in Sources */,
+				10302B3C1E2CC41400A845BA /* BugshotKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10302AF61E2CC36D00A845BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10302B001E2CC36D00A845BA /* BugshotKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		10302AFD1E2CC36D00A845BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10302AF01E2CC36C00A845BA /* BugshotKit */;
+			targetProxy = 10302AFC1E2CC36D00A845BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		4C15DA3B188F48E400767C78 /* Debug */ = {
+		10302B031E2CC36D00A845BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -279,37 +339,50 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4C15DA3C188F48E400767C78 /* Release */ = {
+		10302B041E2CC36D00A845BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -317,73 +390,139 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4C15DA3E188F48E400767C78 /* Debug */ = {
+		10302B061E2CC36D00A845BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/BugshotKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BugshotKit/BugshotKit-Prefix.pch";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BugshotKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lili.BugshotKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		4C15DA3F188F48E400767C78 /* Release */ = {
+		10302B071E2CC36D00A845BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/BugshotKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BugshotKit/BugshotKit-Prefix.pch";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BugshotKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lili.BugshotKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		10302B091E2CC36D00A845BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BugshotKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lili.BugshotKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10302B0A1E2CC36D00A845BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BugshotKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lili.BugshotKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C15DA29188F48E300767C78 /* Build configuration list for PBXProject "BugshotKit" */ = {
+		10302AEB1E2CC36C00A845BA /* Build configuration list for PBXProject "BugshotKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C15DA3B188F48E400767C78 /* Debug */,
-				4C15DA3C188F48E400767C78 /* Release */,
+				10302B031E2CC36D00A845BA /* Debug */,
+				10302B041E2CC36D00A845BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C15DA3D188F48E400767C78 /* Build configuration list for PBXNativeTarget "BugshotKit" */ = {
+		10302B051E2CC36D00A845BA /* Build configuration list for PBXNativeTarget "BugshotKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C15DA3E188F48E400767C78 /* Debug */,
-				4C15DA3F188F48E400767C78 /* Release */,
+				10302B061E2CC36D00A845BA /* Debug */,
+				10302B071E2CC36D00A845BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10302B081E2CC36D00A845BA /* Build configuration list for PBXNativeTarget "BugshotKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10302B091E2CC36D00A845BA /* Debug */,
+				10302B0A1E2CC36D00A845BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C15DA26188F48E300767C78 /* Project object */;
+	rootObject = 10302AE81E2CC36C00A845BA /* Project object */;
 }

@@ -5,6 +5,7 @@ Fork from [BugshotKit](https://github.com/gluckMu/BugshotKit), and add some addi
 
 * iOS 10 support
 * crash report
+* convert to framework project
 
 iOS in-app bug reporting for developers and testers, with annotated screenshots and the console log. By [Marco Arment](http://www.marco.org/).
 
